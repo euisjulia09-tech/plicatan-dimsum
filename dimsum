@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plicatan Dimsum - Kelezatan Asli dari Jatinangor</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #FFFDF9;
+        }
+    </style>
+</head>
+<body class="text-gray-800 antialiased">
+
+    <nav class="sticky top-0 z-50 bg-[#FFFDF9]/90 backdrop-blur-md border-b border-orange-100">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-extrabold text-[#8B0000] tracking-tight">
+                Plicatan<span class="text-orange-500">Dimsum.</span>
+            </a>
+            <div class="hidden md:flex space-x-8 font-semibold text-gray-600">
+                <a href="#home" class="hover:text-[#8B0000] transition">Home</a>
+                <a href="#menu" class="hover:text-[#8B0000] transition">Menu</a>
+                <a href="#pembayaran" class="hover:text-[#8B0000] transition">Pembayaran</a>
+                <a href="#pengiriman" class="hover:text-[#8B0000] transition">Pengiriman</a>
+            </div>
+            <a href="https://wa.me/628XXXXXXXXXX?text=Halo%20Plicatan%20Dimsum,%20saya%20mau%20order" target="_blank" 
+               class="bg-[#8B0000] text-white px-5 py-2.5 rounded-full font-semibold hover:bg-[#A52A2A] transition shadow-md shadow-red-900/20 text-sm">
+                <i class="fab fa-whatsapp mr-2"></i>Order Sekarang
+            </a>
+        </div>
+    </nav>
+
+    <section id="home" class="max-w-6xl mx-auto px-4 py-12 md:py-20 grid md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-6 text-center md:text-left">
+            <span class="bg-orange-100 text-orange-700 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full">
+                <i class="fas fa-map-marker-alt mr-1"></i> Berbasis di Jatinangor
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-[#8B0000] leading-tight">
+                Sensasi Dimsum <span class="text-orange-500">Premium</span>, Keju Lumer Melimpah!
+            </h1>
+            <p class="text-gray-600 text-lg leading-relaxed">
+                Dibuat dari bahan segar pilihan dengan lelehan keju mozzarella dan saus mentai premium yang dibakar sempurna. Hangat, gurih, dan pas banget buat nemenin waktu kuliah atau santaimu di Jatinangor!
+            </p>
+            <div class="pt-4 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+                <a href="#menu" class="bg-orange-500 text-white text-center px-8 py-4 rounded-xl font-bold hover:bg-orange-600 transition shadow-lg shadow-orange-500/20">
+                    Lihat Varian Menu Mozza
+                </a>
+                <a href="#pengiriman" class="border-2 border-gray-200 text-center text-gray-700 px-8 py-4 rounded-xl font-bold hover:bg-gray-50 transition">
+                    <i class="fas fa-truck mr-2 text-orange-500"></i>Cek Ongkir Jatinangor
+                </a>
+            </div>
+        </div>
+        <div class="relative justify-self-center md:justify-self-end">
+            <div class="absolute -inset-1 bg-gradient-to-r from-orange-500 to-[#8B0000] rounded-2xl blur opacity-30"></div>
+            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80" 
+                 alt="Dimsum Premium Plicatan" class="relative rounded-2xl shadow-2xl w-full max-w-md object-cover h-[400px]">
+        </div>
+    </section>
+
+    <section class="bg-gradient-to-b from-orange-50/50 to-transparent py-12">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="p-4 bg-white rounded-xl shadow-sm border border-orange-100">
+                <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mx-auto text-orange-600 text-xl mb-3"><i class="fas fa-cheese"></i></div>
+                <h4 class="font-bold text-[#8B0000]">Premium Cheese</h4>
+            </div>
+            <div class="p-4 bg-white rounded-xl shadow-sm border border-orange-100">
+                <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mx-auto text-orange-600 text-xl mb-3"><i class="fas fa-certificate"></i></div>
+                <h4 class="font-bold text-[#8B0000]">Halal & Higienis</h4>
+            </div>
+            <div class="p-4 bg-white rounded-xl shadow-sm border border-orange-100">
+                <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mx-auto text-orange-600 text-xl mb-3"><i class="fas fa-fire"></i></div>
+                <h4 class="font-bold text-[#8B0000]">Selalu Hangat</h4>
+            </div>
+            <div class="p-4 bg-white rounded-xl shadow-sm border border-orange-100">
+                <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mx-auto text-orange-600 text-xl mb-3"><i class="fas fa-graduation-cap"></i></div>
+                <h4 class="font-bold text-[#8B0000]">Harga Mahasiswa</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="max-w-6xl mx-auto px-4 py-16">
+        <div class="text-center max-w-xl mx-auto mb-12">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-[#8B0000]">Varian Menu Plicatan Dimsum</h2>
+            <p class="text-gray-600 mt-2">Perpaduan dimsum premium dengan keju premium yang lumer di mulut!</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=500&q=80" alt="Pangsit Goreng Mozzarella" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded">CRUNCHY & MELT</span>
+                            <span class="text-xs font-semibold text-gray-500 bg-gray-100 px-2 py-1 rounded"><i class="fas fa-utensils mr-1"></i>Isi 4 pcs</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-[#8B0000] mt-2">Pangsit Goreng Mozzarella</h3>
+                        <p class="text-gray-600 text-sm mt-2">Kulit pangsit renyah gurih di luar dengan isian daging premium yang padat, ditambah *topping* keju mozzarella molor di atasnya.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 flex justify-between items-center border-t border-gray-50 mt-4">
+                    <span class="text-xl font-extrabold text-orange-500">Rp 20.000</span>
+                    <a href="https://wa.me/628XXXXXXXXXX?text=Halo%20Plicatan%20Dimsum,%20saya%20mau%20pesan%20Pangsit%20Goreng%20Mozzarella%20(Isi%204)" target="_blank" class="bg-orange-500 text-white p-2.5 rounded-xl hover:bg-orange-600 transition">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1496116211227-4d37bda74066?auto=format&fit=crop&w=500&q=80" alt="Cheese Dimsum" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded">BEST SELLER</span>
+                            <span class="text-xs font-semibold text-gray-500 bg-gray-100 px-2 py-1 rounded"><i class="fas fa-utensils mr-1"></i>Isi 6 pcs</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-[#8B0000] mt-2">Cheese Dimsum</h3>
+                        <p class="text-gray-600 text-sm mt-2">Dimsum kukus original super *juicy* yang dibalut dan diisi dengan keju gurih melimpah. Favorit para pecinta keju!</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 flex justify-between items-center border-t border-gray-50 mt-4">
+                    <span class="text-xl font-extrabold text-orange-500">Rp 25.000</span>
+                    <a href="https://wa.me/628XXXXXXXXXX?text=Halo%20Plicatan%20Dimsum,%20saya%20mau%20pesan%20Cheese%20Dimsum%20(Isi%206)" target="_blank" class="bg-orange-500 text-white p-2.5 rounded-xl hover:bg-orange-600 transition">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1626200419199-391ae4be7a40?auto=format&fit=crop&w=500&q=80" alt="Dimsum Mentai Mozza" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded">SIGNATURE</span>
+                            <span class="text-xs font-semibold text-gray-500 bg-gray-100 px-2 py-1 rounded"><i class="fas fa-utensils mr-1"></i>Isi 6 pcs</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-[#8B0000] mt-2">Dimsum Mentai Mozza</h3>
+                        <p class="text-gray-600 text-sm mt-2">Perpaduan mewah saus mentai yang *creamy* dan sedikit pedas, dikombinasikan dengan mozzarella yang di-*torch* hingga kecokelatan.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 flex justify-between items-center border-t border-gray-50 mt-4">
+                    <span class="text-xl font-extrabold text-orange-500">Rp 25.000</span>
+                    <a href="https://wa.me/628XXXXXXXXXX?text=Halo%20Plicatan%20Dimsum,%20saya%20mau%20pesan%20Dimsum%20Mentai%20Mozza%20(Isi%206)" target="_blank" class="bg-orange-500 text-white p-2.5 rounded-xl hover:bg-orange-600 transition">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-orange-50/60 py-16">
+        <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12">
+            
+            <div id="pembayaran" class="bg-white p-8 rounded-2xl shadow-sm border border-orange-100">
+                <h3 class="text-2xl font-extrabold text-[#8B0000] mb-6 flex items-center">
+                    <i class="fas fa-wallet mr-3 text-orange-500"></i> Cara Pembayaran
+                </h3>
+                <p class="text-gray-600 mb-6 text-sm">Transaksi praktis dan fleksibel dengan pilihan metode non-tunai maupun tunai:</p>
+                <div class="space-y-4">
+                    <div class="flex items-center p-3 bg-gray-50 rounded-xl">
+                        <div class="w-10 h-10 bg-blue-100 text-blue-600 font-bold rounded-lg flex items-center justify-center mr-4 text-xs">QRIS</div>
+                        <div>
+                            <p class="font-bold text-sm">QRIS (E-Wallet)</p>
+                            <p class="text-xs text-gray-500">Gopay, OVO, Dana, ShopeePay, LinkAja</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-3 bg-gray-50 rounded-xl">
+                        <div class="w-10 h-10 bg-green-100 text-green-600 font-bold rounded-lg flex items-center justify-center mr-4 text-xs">BANK</div>
+                        <div>
+                            <p class="font-bold text-sm">Transfer Bank</p>
+                            <p class="text-xs text-gray-500">BCA, Mandiri, BNI, BRI</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-3 bg-gray-50 rounded-xl">
+                        <div class="w-10 h-10 bg-orange-100 text-orange-600 font-bold rounded-lg flex items-center justify-center mr-4 text-sm"><i class="fas fa-money-bill-wave"></i></div>
+                        <div>
+                            <p class="font-bold text-sm">COD (Cash on Delivery)</p>
+                            <p class="text-xs text-gray-500">Bayar di tempat saat pesanan tiba di area sekitar kampus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pengiriman" class="bg-white p-8 rounded-2xl shadow-sm border border-orange-100 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-2xl font-extrabold text-[#8B0000] mb-6 flex items-center">
+                        <i class="fas fa-truck-loading mr-3 text-orange-500"></i> Info Pengiriman Jatinangor
+                    </h3>
+                    <p class="text-gray-600 mb-4 text-sm">Semua pesanan dimasak dan dikirim langsung dalam keadaan hangat dari dapur kami di <strong>Jatinangor</strong>.</p>
+                    
+                    <div class="border-l-4 border-orange-500 pl-4 my-4 space-y-2">
+                        <p class="text-sm text-gray-700"><strong><i class="fas fa-bicycle text-orange-500 mr-1"></i> Area Kampus Jatinangor:</strong> Free Ongkir / Tarif Khusus Mahasiswa untuk area Unpad, ITB, Ikopin, dan IPDN.</p>
+                        <p class="text-sm text-gray-700"><strong><i class="fas fa-motorcycle text-orange-500 mr-1"></i> Luar Jatinangor:</strong> Pengiriman cepat menggunakan GrabExpress / GoSend (Instant/Same Day).</p>
+                    </div>
+                </div>
+                <div class="bg-orange-50 p-4 rounded-xl text-center text-xs text-orange-800 font-semibold mt-4">
+                    💡 Pengiriman dimulai setiap hari jam 10.00 WIB - 21.00 WIB.
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-[#8B0000] text-white pt-12 pb-6">
+        <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8 pb-8 border-b border-red-900/40">
+            <div class="space-y-3">
+                <h4 class="text-xl font-extrabold tracking-tight">Plicatan<span class="text-orange-400">Dimsum.</span></h4>
+                <p class="text-red-200 text-sm">Pelopor dimsum premium dengan keju lumer dan cita rasa otentik yang pas di kantong mahasiswa Jatinangor.</p>
+            </div>
+            <div>
+                <h5 class="font-bold mb-3 text-orange-400">Jam Operasional</h5>
+                <p class="text-sm text-red-100">Setiap Hari: 10:00 - 21:00 WIB</p>
+                <p class="text-xs text-red-300 mt-1">*Menerima pesanan partai besar untuk gathering, rapat organisasi, atau acara kampus.</p>
+            </div>
+            <div>
+                <h5 class="font-bold mb-3 text-orange-400">Hubungi Kami</h5>
+                <a href="https://wa.me/628XXXXXXXXXX" target="_blank" class="inline-flex items-center bg-green-600 hover:bg-green-700 px-4 py-2 rounded-xl text-sm font-bold text-white transition">
+                    <i class="fab fa-whatsapp mr-2 text-lg"></i> Hubungi via WhatsApp
+                </a>
+                <p class="text-xs text-red-300 mt-2"><i class="fas fa-map-marker-alt mr-1"></i> Jatinangor, Sumedang, Jawa Barat</p>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-4 pt-6 text-center text-xs text-red-300/80">
+            &copy; 2026 Plicatan Dimsum. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
